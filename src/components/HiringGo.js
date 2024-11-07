@@ -57,7 +57,7 @@ const HiringGo = () => {
 
 
   return (
-    <div>
+    <div className='main-part'>
       <div className='menu-bar'>
         <div className='menu'>
           <FiMenu />
