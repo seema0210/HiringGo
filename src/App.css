@@ -6,6 +6,7 @@
 }
 .main-part{
   background-color: #000000;
+  width: auto;
 }
 .menu-bar{
   display: flex;
@@ -525,7 +526,10 @@ font-weight: 600;
 }
 @media (max-width: 320px){
   .main-part{
-    width: 59.5rem;
+    width: 62rem;
+  }
+  .menu-bar{
+    padding: 1.8rem 4rem;
   }
   .home h1{
     font-size: 13rem;
@@ -722,7 +726,7 @@ font-weight: 600;
       margin: 1rem 2.7rem 0 5.1rem;
     }
     .expert .white_car{
-      margin-left: -8rem;
+      margin-left: -5rem;
     }
     .expert .btn_white{
       left: 42%;
@@ -826,7 +830,287 @@ font-weight: 600;
       font-size: 25px;
     }
     .news img {
-      margin: 2rem 2.5rem;
+      margin: 2rem 4.5rem;
+    }
+  
+}
+
+@media (min-width: 321px) and (max-width: 768px){
+  .main-part{
+    width: 92rem;
+  }
+  .home h1{
+    font-size: 19rem;
+  }
+  .home img{
+    margin-top: -12rem;
+    margin-left: -3%;
+  }
+  .home p {
+    margin-left: 24%;
+    font-size: 33px;
+    margin-top: -45rem;
+    }
+    nav ul li {
+      margin: 1rem 0 0 2.5rem;
+      padding: 0 0.5rem;
+      font-size: 2rem;
+    }
+
+    .car-info{
+      margin: 2rem 0 1rem 7%;
+    }
+    .info h1{
+      font-size: 70px;
+    }
+    .info h2{
+      font-size: 42px;
+    }
+    .info p{
+      font-size: 31px;
+    }
+    .icon{
+      font-size: 24px;
+    }
+    .car_part div{
+      margin: 0;
+      padding: 1rem 1rem;
+    }
+    .car_part div img, p{
+      font-size: 27px;
+    }
+    
+    .theory p{
+      margin-left: -34rem;
+      margin-top: -45rem;
+      font-size: 27px;
+      width: 45rem;
+    }
+    .theory img{
+      width: 75rem;
+      height: 80rem;
+      margin-top: 4rem;
+    }
+    .theory .btn{
+      margin: -21rem 0rem 0 -17rem;
+      font-size: 25px;
+    }
+    .back_img{
+      top: -45rem;
+      left: 7.5rem;
+    }
+    .back_img .back_info h1{
+      margin: 9rem 0 0.7rem 0;
+      font-size: 77px;
+    }
+    .back_img .back_info p{
+      font-size: 27px;
+    }
+    .back_img img {
+      margin-top: 8rem;
+    }
+    .navbar{
+      top: -35rem;
+      left: 0.4rem;
+    }
+    .car_detail{
+      width: 60.8rem;
+      font-size: 30px;
+    }
+    .car_detail .price{
+    padding-left: 21rem;
+    }
+    .car_detail .varient{
+    padding-left: 1.5rem;
+    }
+    .price_info{
+      width: 65rem;
+    }
+    .price_info h2{
+      font-size: 32px;
+    }
+    .price_info p{
+      font-size: 27px;
+    }
+    .price_info .price_col{
+      font-size: 22px;
+    }
+    .p_info{
+      margin: 0 0rem;
+    }
+    .btns{
+      font-size: 28px;
+      width: 11rem;
+    }
+    .btn_viewMore{
+      font-size: 30px;
+      text-align: start;
+      margin-left: 63%;
+    }
+
+    .table{
+      top: -30rem;
+      left: 4.8rem;
+    }
+    .table table{
+      width: 85%;
+    }
+    .table h1{
+      font-size: 75px;
+    }
+    .table p {
+      font-size: 30px;
+      line-height: 35px;
+      margin: 1.5rem 0 2.2rem 0;
+    }
+    table tbody td{
+      font-size: 28px;
+      padding: 7px 1rem;
+      text-align: center;
+    }
+    table thead th{
+      font-size: 31px;
+    }
+
+    .expert{
+      top: -31rem;
+    }
+    .expert_car{
+      padding: 0rem 0 0 4.5rem;
+    }
+    .expert .first {
+      font-size: 65px;
+      margin-left:  0.1rem;
+    }
+    .expert_car img{
+      width: 35rem;
+      height: 35rem;
+    }
+    .expert .expert_car h1{
+      font-size: 80px;
+      margin-bottom: 1.9rem;
+    }
+    .expert p{
+      font-size: 30px;
+      line-height: 1.3;
+    }
+    .expert_nav {
+      margin-left: 4.5rem;
+      width: 79%;
+    }
+    .expert_nav .constant_color{
+      margin-left: -3rem;
+    }
+    .left_br{
+      padding-left: 7rem;
+    }
+    .expert .exp_p{
+      margin: 1rem 4rem 0 4.5rem;
+    }
+    .expert .white_car{
+      margin-left: 2rem;
+    }
+    .expert .btn_white{
+      left: 41%;
+      width: 13rem;
+      font-size: 29px;
+    }
+
+    .black_img{
+      margin-top: -57rem;
+    }
+    .black_img div{
+      margin-left: -4rem;
+    }
+    .black_img img{
+      width: 35rem;
+      height: 28rem;
+    }
+    .black_img h1{
+      font-size: 85px;
+    }
+    .black_img h2{
+      font-size: 40px;
+    }
+    .black_img p{
+      font-size: 30px;
+      padding-left: 2rem;
+    }
+    .amazing{
+      padding-left: 1.5rem;
+    }
+    hr{
+      width: 92%;
+      margin: 1rem 0 1.5rem  6%;
+    }
+    .amazing ul li{
+      line-height: 1.5;
+      font-size: 29px;
+    }
+    .amazing h2{
+      font-size: 35px;
+      width: 34rem;
+    }
+    
+    .mahindra{
+      margin: 6rem 0 1rem 4.5rem;
+    }
+    .mahindra h1{
+      font-size: 92px;
+    }
+    .mahindra h2{
+      font-size: 85px;
+      margin-bottom: 2rem;
+    }
+    .mahindra .filter p, .view_more button{
+      font-size: 29px;
+    }
+    .mahindra .filter button{
+      font-size: 29px;
+    }
+    .maps{
+      margin: 5rem 3.5rem;
+    }
+    .map{
+     padding: 1rem;
+     margin: 0 0.6rem;
+    }
+    .map p{
+      font-size: 26px;
+    }
+    .map .add{
+      font-size: 20px;
+    }
+    .view_more button{
+      margin-left: 43%; 
+    }
+
+    .red{
+      padding: 15rem 0;
+      margin-left: -2rem;
+    }
+    .red img{
+      width: 40rem;
+      height: 30rem;
+    }
+    .red_car h1{
+      font-size: 70px;
+    }
+    .red_car h2 {
+    font-size: 62px;
+    }
+    .red .pouse{
+      display: flex;
+    }
+    .red .pouse img {
+      width: 18rem;
+      height: 15rem;
+    }
+    .red .pouse p {
+      font-size: 25px;
+    }
+    .news img {
+      margin: -7rem 2.5rem 5rem 2.5rem;
     }
   
 }
