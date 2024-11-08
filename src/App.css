@@ -1,3 +1,6 @@
+/* @media (min-width: 769px) and (max-width: 1024px){ */
+
+
 .App {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +9,7 @@
 }
 .main-part{
   background-color: #000000;
-  width: auto;
+  width: 82rem;
 }
 .menu-bar{
   display: flex;
@@ -37,7 +40,7 @@ nav ul{
   display: flex;
 }
 nav ul li{
-  margin: 0 3.1rem;
+  margin: 0 2.5rem;
   font-size: 1.4rem;
   display: flex;
   align-items: center;
@@ -113,9 +116,6 @@ margin-top: -47rem;
   font-size: 28px;
   margin: 0.5rem 0 0 0;
 }
-.parts{
-  /* display: flex; */
-}
 .car_part{
   display: flex;
 }
@@ -170,10 +170,8 @@ margin-top: -47rem;
   margin-left: -10rem;
 }
  .back_info{
-  /* width: 30rem; */
   position: absolute;
-  left: 7rem;
-  /* margin-right: -8rem; */
+  left: 6rem;
 }
 
 .back_img .back_info h1{
@@ -199,7 +197,7 @@ margin-top: -47rem;
 .navbar{
   position: relative;
   top: -57rem;
-  left: 2.5rem;
+  left: 1.8rem;
 }
 .car_detail{
   display: flex;
@@ -213,10 +211,10 @@ margin-top: -47rem;
   padding: 0.3rem;
 }
 .car_detail .price{
-padding-left: 14rem;
+padding-left: 18.5rem;
 }
 .car_detail .varient{
-padding-left: 1.1rem;
+padding-left: 1.5rem;
 }
 .price_info{
   width: 60rem;
@@ -224,7 +222,7 @@ padding-left: 1.1rem;
   align-items: center;
   justify-content: space-evenly;
   position: relative;
-  left:2.2rem ; 
+  left:1.8rem ; 
   margin: 2rem 0;
 }
 .price_info h2, p{
@@ -265,15 +263,16 @@ padding-left: 1.1rem;
   border: none;
   font-size: 23px;
   font-weight: 700;
-  align-items: end;
   width: 100vw;
   margin-left: 11rem;
+  position: relative;
+  left: 14%;
 }
 
 .table{
   position: relative;
   top: -55rem;
-  left: 9rem;
+  left: 7rem;
 }
 .table h1{
   font-size: 60px;
@@ -290,12 +289,14 @@ padding-left: 1.1rem;
 table tbody td{
   border-bottom: 1px solid white;
   padding: 7px 5rem;
+  font-size: 26px;
 }
 table thead th{
   color: #30aff8;
   background: gray;
   margin: 0 -5px;
   padding: 5px;
+  font-size: 30px;
 }
 
 .expert{
@@ -305,12 +306,15 @@ table thead th{
 .expert_car{
   display: flex;
   align-items: center;
-  padding: 0rem 0 0 9rem;
+  padding: 0rem 0 0 6.5rem;
 }
 .expert_nav {
   border-bottom: 1px solid white;
-  width: 80%;
-  margin-left: 9rem;
+  width: 75%;
+  margin-left: 6.5rem;
+}
+.expert_nav .constant_color{
+margin-left: -2rem;
 }
 .expert_nav ul li{
   color: white;
@@ -318,7 +322,7 @@ table thead th{
 }
 .left_br{
   border-left: 1px solid white;
-  padding-left: 5rem;
+  padding-left: 6rem;
 }
 
 .expert_nav ul li:hover{
@@ -334,11 +338,11 @@ table thead th{
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
-  /* width: 90%; */
   padding: 2rem 0;
 }
 .expert .exp_p{
-  margin-left: 9rem;
+  margin-left: 6.5rem;
+  padding-right: 2rem;
 
 }
 .btn_white{
@@ -347,7 +351,7 @@ table thead th{
   background: transparent;
 }
 .white_car{
-  margin: -8rem 0 0 5rem;
+  margin: -8rem 0 0 3.5rem;
 }
 .expert .btn_white{
   position: relative;
@@ -360,10 +364,12 @@ table thead th{
 }
 .black_img{
   display: flex;
+  /* justify-content: space-around; */
   margin-top: -79rem;
+  padding-right: 3rem;
 }
 .black_img h1{
-  font-size: 85px;
+  font-size: 80px;
   font-weight: 600;
   margin-bottom: -2rem;
 }
@@ -375,8 +381,8 @@ table thead th{
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 0.5rem;
-
 }
+
 .black_img p{
   font-weight: 500;
   font-size: 25px;
@@ -384,27 +390,29 @@ table thead th{
 .amazing{
   display: flex;
   justify-content: space-around;
-  padding-left: 3rem;
+  padding-left: 1.8rem;
 }
 hr{
   width: 90%;
-  margin: 1.5rem 0 1.5rem  10%;
+  margin: 1.5rem 0 1.5rem  8%;
 }
 .amazing ul li{
-  line-height: 2;
-  font-size: 18px;
+  line-height: 1.5;
+  font-size: 22px;
+  padding-right: 2rem;
 }
 .amazing h2{
   font-size: 36px;
   font-weight: 700;
   color: #00BA6C;
-  padding-left: 3rem;
+  padding-left: 5.5rem;
+  width: 29rem;
 }
 .amazing .next{
   color: #FE5959;
 }
 .mahindra{
-  margin: 4rem 0 1rem 6.8rem;
+  margin: 4rem 0 1rem 5rem;
 }
 .mahindra h1{
   font-weight: 200;
@@ -452,7 +460,7 @@ hr{
 }
 .maps{
   display: flex;
-  margin: 5rem 6rem;
+  margin: 5rem 4rem;
 }
 .map{
   border: 2px solid white;
@@ -460,14 +468,14 @@ hr{
  margin: 0 1rem;
 }
 .map p{
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
   margin-top: 0.7rem;
 }
 .map .add{
   margin-top: 4rem;
-  font-size: 13px;
+  font-size: 15px;
 }
 .view_more button{
   margin-left: 45%;
@@ -478,7 +486,7 @@ hr{
   padding: 8rem 0;
 }
 .red_car{
-  margin-left: 6.3rem;
+  margin-left: 4.5rem;
   line-height: 0.3;
 }
 .red_car h1{
@@ -507,7 +515,7 @@ font-weight: 600;
 .news img{
   width: 350px;
   height: 200px;
-  margin: -1rem 0 0 6rem;
+  margin: -1rem 0 0 4rem;
 }
 .expert .first {
   font-weight: 200;
@@ -524,19 +532,20 @@ font-weight: 600;
   font-size: 85px;
   font-weight: 600;
 }
+/* } */
 @media (max-width: 320px){
   .main-part{
-    width: 62rem;
+    width: 53rem;
   }
   .menu-bar{
     padding: 1.8rem 4rem;
   }
   .home h1{
-    font-size: 13rem;
+    font-size: 11.5rem;
   }
   .home img{
     margin-top: -8rem;
-    margin-left: -3%;
+    margin-left: -7%;
     width: 70rem;
     height: 60rem;
   }
@@ -593,21 +602,21 @@ font-weight: 600;
     }
 
     .theory p{
-      margin-left: -28rem;
-      margin-top: -20rem;
+      margin-left: -25rem;
+      margin-top: -10rem;
       font-size: 27px;
       width: 25rem;
     }
     .theory img{
-      width: 60rem;
-      height: 60rem;
+      width: 50rem;
+      height: 50rem;
       margin-top: 6rem;
     }
     .theory .btn{
       margin: -3rem 0rem 0 -54rem;
     }
     .back_img{
-      top: -22rem;
+      top: -10rem;
       left: 8rem;
       padding: 2rem;
       margin-left: -10rem;
@@ -616,7 +625,7 @@ font-weight: 600;
       margin: 3rem 0 1rem 0;
     }
     .back_img .back_info p{
-      width: 40rem;
+      width: 35rem;
       font-size: 29px;
       font-weight: 400;
     }
@@ -625,11 +634,11 @@ font-weight: 600;
       margin-top: 8rem;
     }
     .navbar{
-      top: -20rem;
+      top: -10rem;
       left: 1rem;
     }
     .car_detail{
-      width: 49.5rem;
+      width: 45.5rem;
       font-size: 29px;
     }
     .car_detail .price{
@@ -639,7 +648,7 @@ font-weight: 600;
     padding-left: 1.1rem;
     }
     .price_info{
-      width: 55rem;
+      width: 50rem;
       left:2rem ; 
     }
     .price_info h2{
@@ -666,8 +675,8 @@ font-weight: 600;
     }
 
     .table{
-      top: -20rem;
-      left: 5.5rem;
+      top: -10rem;
+      left: 4.5rem;
     }
     .table table{
       width: 80%;
@@ -691,10 +700,10 @@ font-weight: 600;
     }
 
     .expert{
-      top: -21rem;
+      top: -11rem;
     }
     .expert_car{
-      padding: 0rem 0 0 5.5rem;
+      padding: 0rem 0 0 4.5rem;
     }
     .expert .first {
       font-size: 55px;
@@ -704,7 +713,7 @@ font-weight: 600;
       height: 22rem;
     }
     .expert .expert_car h1{
-      font-size: 75px;
+      font-size: 50px;
       margin-bottom: 1.5rem;
     }
     .expert p{
@@ -726,7 +735,7 @@ font-weight: 600;
       margin: 1rem 2.7rem 0 5.1rem;
     }
     .expert .white_car{
-      margin-left: -5rem;
+      margin-left: -9rem;
     }
     .expert .btn_white{
       left: 42%;
@@ -735,7 +744,7 @@ font-weight: 600;
     }
 
     .black_img{
-      margin-top: -45rem;
+      margin-top: -40rem;
     }
     .black_img div{
       margin-left: -3rem;
@@ -745,10 +754,10 @@ font-weight: 600;
       height: 20rem;
     }
     .black_img h1{
-      font-size: 65px;
+      font-size: 55px;
     }
     .black_img h2{
-      font-size: 38px;
+      font-size: 35px;
     }
     .black_img p{
       font-size: 28px;
@@ -810,13 +819,13 @@ font-weight: 600;
       height: 20rem;
     }
     .red_car{
-      margin-left: 4.8rem;
+      margin-left: 4rem;
     }
     .red_car h1{
-      font-size: 60px;
+      font-size: 50px;
     }
     .red_car h2 {
-    font-size: 55px;
+    font-size: 45px;
     }
     .red .pouse{
       display: inline-block;
@@ -831,13 +840,14 @@ font-weight: 600;
     }
     .news img {
       margin: 2rem 4.5rem;
+      /* text-align: center; */
     }
   
 }
 
 @media (min-width: 321px) and (max-width: 768px){
   .main-part{
-    width: 92rem;
+    width: 81rem;
   }
   .home h1{
     font-size: 19rem;
